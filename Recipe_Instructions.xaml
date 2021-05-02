@@ -1,0 +1,50 @@
+﻿<Window x:Class="IndianCookbook.Recipe_Instructions"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:IndianCookbook"
+        mc:Ignorable="d"
+        Title="IndianCookbook" Height="660" Width="1000"
+        Loaded="Window_Loaded">
+        <Window.Resources>
+            <local:String2ImagePath x:Key="st2image"/>
+        </Window.Resources>
+
+    <Grid Margin="0,0,0,0" Background="#FFE5E5E5">
+        <TextBlock Text="Recipe Instructions" Margin="10,0,-0.4,394" Background="#FFE5E5E5" FontSize="14" FontWeight="DemiBold" ></TextBlock>
+        <TextBlock Name="Txt_Recipe_Title" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"  Margin="101,41,0,0" FontSize="14" FontWeight="DemiBold"/>
+
+        <Image Source="{Binding}"/>
+        <Image Name="Img_Recipe" HorizontalAlignment="Left" Height="136" VerticalAlignment="Top" Width="166" Margin="101,69,0,0" 
+               Source="{Binding image, Converter={StaticResource st2image}}"/>
+
+
+        <TextBlock Text="Difficulty Level :" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="423,43,0,0" Width="103" FontSize="14" FontWeight="DemiBold"/>
+        <TextBlock Name="Txt_Difficulty" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120" Margin="556,43,0,0" FontSize="14" FontWeight="Medium"/>
+        <TextBlock Text="Duration :" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="423,83,0,0" Width="103" FontSize="14" FontWeight="DemiBold"/>
+        <TextBlock  Name="Txt_Duration" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="556,83,0,0" FontSize="14" FontWeight="Medium"/>
+        <TextBlock Text="Ideal For :" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="423,121,0,0" Width="103" FontSize="14" FontWeight="DemiBold"/>
+        <TextBlock  Name="Txt_Ideal_For" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="556,121,0,0" FontSize="14" FontWeight="Medium"/>
+        <TextBlock Text="Servings :" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="423,157,0,0" Width="103" FontSize="14" FontWeight="DemiBold"/>
+        <TextBlock  Name="Txt_Servings" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="556,157,0,0" FontSize="14" FontWeight="Medium"/>
+        <TabControl Name="Tabs2" TabStripPlacement="Top"  Margin="101,210,116,10" >
+
+            <TabItem Header="Ingredients">
+                <TextBlock  Name="Txt_Ingredients" HorizontalAlignment="Left" TextWrapping="Wrap"  VerticalAlignment="Top" Width="572" Height="334" Margin="0,0,-2.4,-0.4"/>
+            </TabItem>
+
+            <TabItem Header="Method">
+                <TextBlock  Name="Txt_Method" HorizontalAlignment="Left" TextWrapping="WrapWithOverflow"  VerticalAlignment="Top" Width="570" Height="277"/>
+            </TabItem>
+        </TabControl>
+
+        <StackPanel Margin="0,31,932.6,569.4" Orientation="Vertical" >
+            <Button Name="Btn_GoBack" Margin="0,0,22,0" Background="#FFE5E5E5" BorderThickness="0"  Click="Btn_GoBack_Click"  Height="25">
+                <StackPanel Height="25" Width="31" HorizontalAlignment="Right" VerticalAlignment="Top"  Margin="0,0,0,0">
+                    <Image  Height="20" Source="Images/arrow.png" RenderTransformOrigin="-0.052,0.643" Margin="10,0,0.4,0"/>
+                </StackPanel>
+            </Button>
+        </StackPanel>
+    </Grid>
+</Window>

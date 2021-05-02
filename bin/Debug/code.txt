@@ -1,0 +1,231 @@
+<!--<Grid Height="127" Background="#e8e5e3" Margin="257.6,86,48.4,383.4" Grid.Column="2">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="59*"/>
+                                <ColumnDefinition Width="167*"/>
+                            </Grid.ColumnDefinitions>
+                            <Button Name="Btn_pani_puri" Grid.ColumnSpan="2" Margin="0,0,460.4,0" Click="Btn_pani_puri_Click">
+                                <Image HorizontalAlignment="Left" Source="Images/pani-puri-5894482_1920.jpg" Margin="306.4,0,-16.6,0" Grid.Column="1"/>
+
+                            </Button>
+                            <Image HorizontalAlignment="Left" Source="Images/pani-puri-5894482_1920.jpg" Margin="306.4,0,-16.6,0" Grid.Column="1"/>
+                            <Image HorizontalAlignment="Center" Source="Images/chaitanya-shinde-mTyCp_D5vwk-unsplash.jpg" Margin="50.4,0,204.4,0" Grid.Column="1"/>
+                            <Image HorizontalAlignment="Right" Source="Images/kabir-cheema-8T9AVksyt7s-unsplash.jpg" Margin="0,0,460.4,0" Grid.ColumnSpan="2" />
+                        </Grid>
+                        <Grid Height="30" Margin="295.6,233,80.4,333.4" Grid.Column="2">
+                            <Label Content="Pani Puri" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+                            <Label Content="Sev Puri" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+                            <Label Content="Samosa" HorizontalAlignment="Right" VerticalAlignment="Top"/>
+                        </Grid>
+                        <Grid Height="30" Margin="816.6,276,10.4,290.4" Grid.Column="2">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="15*"/>
+                                <ColumnDefinition Width="24*"/>
+                                <ColumnDefinition Width="17*"/>
+                                <ColumnDefinition Width="14*"/>
+                            </Grid.ColumnDefinitions>
+                            <Button Content="View More" HorizontalAlignment="Right" VerticalAlignment="Top" Width="72" Margin="0,0,4,0" Grid.ColumnSpan="2" Grid.Column="1"/>
+                        </Grid>
+                        <TextBlock TextWrapping="Wrap" HorizontalAlignment="Center" Text="Traditional Indian Drinks" RenderTransformOrigin="1.478,0.325" Margin="508.6,320,260.4,232.4" Width="187" Grid.Column="2"/>
+                        <Grid Height="127" Background="#e8e5e3" Margin="257.6,374,15.4,95.4" Grid.Column="2">
+                            <Image HorizontalAlignment="Left" Source="Images/louis-hansel-shotsoflouis-_xJvinSVM0A-unsplash.jpg" />
+                            <Image HorizontalAlignment="Center" Source="Images/tiago-rosado-Xl8vnC9U4EE-unsplash.jpg"/>
+                            <Image HorizontalAlignment="Right" Source="Images/mango-lassi-3856051_1920.jpg" />
+                        </Grid-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--<Grid Margin="249.8,37,501.4,18.8" Background="#FFE5E5E5" Width="100" Grid.Column="4">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="37*"/>
+                                <ColumnDefinition Width="13*"/>
+                            </Grid.ColumnDefinitions>
+                            <TextBox HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="{Binding selectedRecipe}" VerticalAlignment="Top" Width="120" Margin="26.8,0,-121,0" Grid.Column="1"/>
+                            <Image HorizontalAlignment="Left" Height="146" VerticalAlignment="Top" Width="166" Margin="26.8,49,-167,0" Source="Gajar Halwa.jpg" Grid.Column="1"/>
+                            <Label Content="Difficulty Level :" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="348.8,43,-426,0" Width="103" Grid.Column="1"/>
+                            <TextBox HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="Easy" VerticalAlignment="Top" Width="120" Margin="482.8,43,-577,0" Grid.Column="1"/>
+                            <Label Content="Duration :" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="348.8,83,-426,0" Width="103" Grid.Column="1"/>
+                            <TextBox HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="30 mins" VerticalAlignment="Top" Width="120" Margin="482.8,83,-577,0" Grid.Column="1"/>
+                            <Label Content="Ideal For :" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="348.8,121,-426,0" Width="103" Grid.Column="1"/>
+                            <TextBox HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="Breakfast" VerticalAlignment="Top" Width="120" Margin="482.8,121,-577,0" Grid.Column="1"/>
+                            <Label Content="Servings :" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="348.8,172,-426,0" Width="103" Grid.Column="1"/>
+                            <TextBox HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="4" VerticalAlignment="Top" Width="120" Margin="482.8,172,-577,0" Grid.Column="1"/>
+                            <TabControl Name="Tabs2" TabStripPlacement="Top"  Margin="26.8,265,-1,0.2" Grid.Column="1" >
+                                <TabItem  Background="Gray">
+                                </TabItem>
+                                <TabItem Header="Ingredients" Background="Gray">
+                                    <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="678" Height="280"/>
+
+
+                                </TabItem>
+
+                                <TabItem Header="Method" Background="Gray">
+                                    <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="678" Height="280"/>
+
+                                </TabItem>
+                            </TabControl>
+                        </Grid>-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--<StackPanel HorizontalAlignment="Left" Height="22" VerticalAlignment="Top" Width="784">
+            <TabControl HorizontalAlignment="Center" Height="22" VerticalAlignment="Top" Width="333">
+                <TabItem Header="Vegetarian">
+                    <Grid Background="#FFE5E5E5"/>
+                </TabItem>
+                <TabItem Header="Non Vegetarian">
+                    <Grid Background="#FFE5E5E5"/>
+                </TabItem>
+                <TabItem Header="Vegan">
+                    <Grid Background="#FFE5E5E5"/>
+                </TabItem>
+                <TabItem Header="One Pot" >
+                    <Grid Background="#FFE5E5E5"/>
+                </TabItem>
+                <TabItem Header="Desserts">
+                    <Grid Background="#FFE5E5E5"/>
+                </TabItem>
+            </TabControl>
+        </StackPanel>
+        <ScrollViewer VerticalScrollBarVisibility="Visible" HorizontalScrollBarVisibility="Disabled" HorizontalAlignment="Center" Margin="12,0,0,0">
+
+            <StackPanel Height="898"  Margin="10,0,0,0"  HorizontalAlignment="Left" Width="774">
+                <TextBlock TextWrapping="Wrap" HorizontalAlignment="Center" Text="Quick and Easy To Make Indian Chats" RenderTransformOrigin="1.478,0.325" Margin="289,30,274.4,0" Width="211"/>
+                <Grid Height="127" Background="AliceBlue" Margin="15,20,15,0">
+                    <Image HorizontalAlignment="Left" Source="getProfileImage.jpg" />
+                    <Image HorizontalAlignment="Center" Source="getProfileImage.jpg"/>
+                    <Image HorizontalAlignment="Right" Source="getProfileImage.jpg" />
+                </Grid>
+                <Grid Height="30" Margin="15,20,15,0">
+                    <Label Content="Pani Puri" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+                    <Label Content="Sev Puri" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+                    <Label Content="Dahi Puri" HorizontalAlignment="Right" VerticalAlignment="Top"/>
+                </Grid>
+                <Grid Height="30" Margin="15,20,15,0">
+                    <Button Content="View More" HorizontalAlignment="Right" VerticalAlignment="Top" Width="75"/>
+                </Grid>
+
+                <TextBlock TextWrapping="Wrap" HorizontalAlignment="Center" Text="Traditional Indian Drinks" RenderTransformOrigin="1.478,0.325"/>
+                <Grid Height="127" Background="AliceBlue" Margin="15,20,15,0">
+                    <Image HorizontalAlignment="Left" Source="getProfileImage.jpg" />
+                    <Image HorizontalAlignment="Center" Source="getProfileImage.jpg"/>
+                    <Image HorizontalAlignment="Right" Source="getProfileImage.jpg" />
+                </Grid>
+                <Grid Height="30" Margin="15,20,15,0">
+                    <Label Content="Pani Puri" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+                    <Label Content="Sev Puri" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+                    <Label Content="Dahi Puri" HorizontalAlignment="Right" VerticalAlignment="Top"/>
+                </Grid>
+                <Grid Height="30" Margin="15,20,15,0">
+                    <Button Content="View More" HorizontalAlignment="Right" VerticalAlignment="Top" Width="75"/>
+                </Grid>
+
+                <TextBlock TextWrapping="Wrap" HorizontalAlignment="Center" Text="Indians Love Pickles" RenderTransformOrigin="1.478,0.325"/>
+                <Grid Height="127" Background="AliceBlue" Margin="15,20,15,0">
+                    <Image HorizontalAlignment="Left" Source="getProfileImage.jpg" />
+                    <Image HorizontalAlignment="Center" Source="getProfileImage.jpg"/>
+                    <Image HorizontalAlignment="Right" Source="getProfileImage.jpg" />
+                </Grid>
+                <Grid Height="30" Margin="15,20,15,0">
+                    <Label Content="Pani Puri" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+                    <Label Content="Sev Puri" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+                    <Label Content="Dahi Puri" HorizontalAlignment="Right" VerticalAlignment="Top"/>
+                </Grid>
+                <Grid Height="30" Margin="15,20,15,0">
+                    <Button Content="View More" HorizontalAlignment="Right" VerticalAlignment="Top" Width="75"/>
+                </Grid>
+            </StackPanel>
+        </ScrollViewer>-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--<TabControl Name="Tabs1" TabStripPlacement="Top"  Margin="0,0,0,-1085" Height="1113" >
+            <TabItem  Background="Gray">
+            </TabItem>
+            <TabItem Header="Vegetarian" Background="Gray">
+                <Grid Margin="0,30,2,513.8">
+                    <TextBox HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="{Binding selectedRecipe}" VerticalAlignment="Top" Width="120"/>
+                    <Image HorizontalAlignment="Left" Height="146" VerticalAlignment="Top" Width="166" Margin="0,39,0,0" Source="getProfileImage.jpg"/>
+                    <Label Content="Difficulty Level :" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="334,39,0,0" Width="103"/>
+                    <TextBox HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="Easy" VerticalAlignment="Top" Width="120" Margin="454,43,0,0"/>
+                    <Label Content="Duration :" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="334,83,0,0" Width="103"/>
+                    <TextBox HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="30 mins" VerticalAlignment="Top" Width="120" Margin="454,87,0,0"/>
+                    <Label Content="Ideal For :" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="334,134,0,0" Width="103"/>
+                    <TextBox HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="Breakfast" VerticalAlignment="Top" Width="120" Margin="454,134,0,0"/>
+                    <Label Content="Servings :" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="334,178,0,0" Width="103"/>
+                    <TextBox HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="4" VerticalAlignment="Top" Width="120" Margin="454,182,0,0"/>
+                    <TabControl Name="Tabs2" TabStripPlacement="Top"  Margin="0,0,0,-1085" Height="1113" >
+                        <TabItem  Background="Gray">
+                        </TabItem>
+                        <TabItem Header="Ingredients" Background="Gray">
+                            <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="678" Height="280"/>
+
+
+                        </TabItem>
+
+                        <TabItem Header="Method" Background="Gray">
+                            <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="678" Height="280"/>
+
+                        </TabItem>
+                    </TabControl>
+                </Grid>
+                
+                
+
+            </TabItem>
+
+            <TabItem Header="Non Vegetarian" Background="Gray">
+
+            </TabItem>
+
+            <TabItem Header="Vegan" Background="Gray">
+
+            </TabItem>
+
+            <TabItem Header="One Pot" Background="Gray">
+
+            </TabItem>
+
+            <TabItem Header="Desserts" Background="Gray">
+
+            </TabItem>
+        </TabControl>-->
+
